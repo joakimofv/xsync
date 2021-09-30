@@ -6,10 +6,10 @@ import (
 	"time"
 )
 
-func TestOneAtATime(t *testing.T) {
+func TestOnceAtATime(t *testing.T) {
 	poison := false
 	count := 0
-	var o OneAtATime
+	var o OnceAtATime
 
 	var wg sync.WaitGroup
 	for i := 0; i < 10; i++ {
