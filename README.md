@@ -1,2 +1,3 @@
 # xsync
-some concurrency control functions on top of sync
+
+https://pkg.go.dev/github.com/joakimofv/xsync
